@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:argone-alpine
 
  #compass 
 RUN apk add --update build-base openssl libffi-dev ruby ruby-dev ruby-rdoc ruby-irb
